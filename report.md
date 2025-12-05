@@ -34,7 +34,7 @@
 |------|-------|------------------|
 | Aditya Dawadikar | aditya.dawadikar@sjsu.edu | Dataset, Schema, Search & Exploration (UC-10, UC-11) |
 | Jakob Kauffmann | jakob.kauffmann@sjsu.edu | Social Graph Features (UC-5 through UC-9) |
-| Timothy | {**TODO** add email}@sjsu.edu | User Management (UC-1 through UC-4) |
+| Timothy | timothy.t.phan@sjsu.edu | User Management (UC-1 through UC-4) |
 
 ---
 
