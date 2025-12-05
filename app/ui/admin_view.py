@@ -453,6 +453,9 @@ RETURN
     # ======================================================
     # UC-10 Search Users
     # ======================================================
+    title = "UC-10: Search Users"
+    st.subheader(title)
+    
     q = st.text_input("Search Term")
     uc10 = """
     MATCH (u:User)
@@ -461,11 +464,15 @@ RETURN
     RETURN u.userId AS id, u.username, u.name, u.bio
     LIMIT 50
     """
-    two_panel_query_ui("UC-10: Search Users", uc10, params={"q": q})
+    two_panel_query_ui(title, uc10, params={"q": q})
+    st.divider()
 
     # ======================================================
     # UC-11 Popular Users
     # ======================================================
+    title = "UC-11: Popular Users"
+    st.subheader(title)
+    
     uc11 = """
     MATCH (u:User)
     OPTIONAL MATCH (u)<-[:FOLLOWS]-(f)
@@ -474,7 +481,8 @@ RETURN
     ORDER BY followerCount DESC
     LIMIT 20
     """
-    two_panel_query_ui("UC-11: Popular Users", uc11)
+    two_panel_query_ui(title, uc11)
+    st.divider()
 
 # ==============================================================================
 # UC-5: Follow Another User (Jakob)

@@ -7,8 +7,8 @@ def dataframe(rows):
     return pd.DataFrame([r.data() for r in rows]) if rows else pd.DataFrame()
 
 def two_panel_query_ui(title, default_cypher, params=None):
-    st.subheader(title)
-    st.divider()
+    
+    
 
     base = title.replace(" ", "_")
     # text_key = base + "_text"
