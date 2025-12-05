@@ -466,6 +466,21 @@ LIMIT 20
 
 ---
 
+## Application Views
+### User Panel
+![img](./images/application_views/UserPanel.png)
+### Follow Users
+![img](./images/application_views/FollowUser.png)
+### Unfollow Users
+![img](./images/application_views/UnfollowUser.png)
+### MyConnections
+![img](./images/application_views/MyConnections.png)
+### Mutual Friends
+![img](./images/application_views/MutualFriends.png)
+### Friend Recommendations
+![img](./images/application_views/FriendRecommendations.png)
+---
+
 ## Appendix: Technology Stack
 
 | Component | Technology |
